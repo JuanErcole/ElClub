@@ -11,7 +11,7 @@ const Home = () => {
         <Card>
           <CardContent>
             <Typography>
-              Aca iria el perfil del usuario o admin
+              Aca iria el perfil del usuario o admin.
             </Typography>
           </CardContent>
         </Card>
