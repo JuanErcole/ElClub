@@ -11,7 +11,7 @@ const ACLPage = () => {
       <Grid item md={6} xs={12}>
         <Card>
           <CardContent>
-            <Typography>Home de usuario</Typography>
+            <Typography>Home</Typography>
           </CardContent>
         </Card>
       </Grid>

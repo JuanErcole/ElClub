@@ -4,11 +4,6 @@ import { VerticalNavItemsType } from 'src/@core/layouts/types'
 const navigation = (): VerticalNavItemsType => {
   return [
     {
-      title: 'Home',
-      path: '/home',
-      icon: 'ic:outline-home',
-    },
-    {
       path: '/acl',
       action: 'read',
       subject: 'acl-page',
