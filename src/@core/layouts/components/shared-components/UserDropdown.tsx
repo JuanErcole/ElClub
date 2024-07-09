@@ -67,20 +67,6 @@ const UserDropdown = (props: Props) => {
     setAnchorEl(null)
   }
 
-  const styles = {
-    px: 4,
-    py: 1.75,
-    width: '100%',
-    display: 'flex',
-    alignItems: 'center',
-    color: 'text.primary',
-    textDecoration: 'none',
-    '& svg': {
-      mr: 2.5,
-      color: 'text.primary'
-    }
-  }
-
   const handleLogout = () => {
     logout()
     handleDropdownClose()
